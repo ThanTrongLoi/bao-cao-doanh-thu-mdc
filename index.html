@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="group" onsubmit="successRevenue()">
+        <div class="input-group">
+            <input type="number" id="dt-day" value="" class="day">
+            <label for="dt-day" class="label">DT Ngày</label>
+            <!-- <p>DT: <span class="dt-day"></span></p> -->
+        </div>
+        <div class="input-group">
+            <input type="number" value="" id="bill-day" class="day">
+            <label for="bill-day" class="label">Bill Ngày</label>
+            <!-- <p>Bill: <span class="bill-day"></span></p> -->
+        </div>
+        <div class="input-group">
+            <input type="number" value="" id="tbb-day" disabled>
+            <label for="tbb-day" class="label">TBB Ngày</label>
+            <!-- <p>TBB: <span class="tbb-day"></span></p> -->
+        </div>
+        <div class="input-group">
+            <input type="text" value="" id="foods">
+            <label for="foods" class="label">Món ăn</label>
+            <!-- <p>DT: <span class="dt-day"></span></p> -->
+        </div>
+        <div class="input-group">
+            <div class="input-child">
+                <input type="number" value="" id="dt-month">
+                <label for="dt-month" class="label">DT Tháng</label>
+            </div>
+            <div class="input-child">
+                <input type="number" value="" id="dt-target">
+                <label for="dt-target" class="label">Target DT</label>
+            </div>
+            <p>% DT Tháng: <span class="percent-dt"></span></p>
+        </div>
+        <div class="input-group">
+            <input type="number" value="" id="bill-month">
+            <label for="bill-month" class="label">Bill Tháng</label>
+            <!-- <p>Bill Tháng: <span class="bill-month"></span></p> -->
+        </div>
+        <div class="input-group">
+            <div class="input-child">
+                <input type="number" value="" id="tbb-month" disabled>
+                <label for="tbb-month" class="label">TBB Tháng</label>
+            </div>
+            <div class="input-child">
+                <input type="number" value="" id="tbb-target">
+                <label for="tbb-target" class="label">Target TBB</label>
+            </div>
+
+            <p>% TBB Tháng: <span class="percent-bill"></span></p>        </div>
+        <div class="input-group">
+            <input type="number" value="" id="edelweiss">
+            <label for="edelweiss" class="label">Tháp Bia</label>
+            <!-- <p>Tháp bia: <span class="edelweiss"></span></p> -->
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
