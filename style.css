@@ -17,6 +17,7 @@ body {
     max-width: 100%;
     overflow: hidden;   
     font-family: 'Roboto', sans-serif; 
+    position: relative;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -96,4 +97,20 @@ button {
     font-size: 1.2rem;
     font-weight: bold;
     color: #fff;
+}
+
+.popup {
+    width: 70vw;
+    height: 50vh;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 8px;
+    z-index: 101;
+    padding: 20px;
+    display: none;
+}
+
+.popup p {
+    color: #000;
+    font-size: 12px;
 }
