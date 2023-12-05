@@ -108,9 +108,26 @@ button {
     z-index: 101;
     padding: 20px;
     display: none;
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: column; */
 }
 
 .popup p {
     color: #000;
     font-size: 12px;
+}
+
+.btn-copy {
+    margin-top: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+.btn-copy:hover {
+    transform: translateY(-10px);
 }
